@@ -1,4 +1,25 @@
 Voyage::Application.routes.draw do
+  resources :tours
+
+
+  resources :comments
+
+
+  resources :categories
+
+
+  resources :galleries
+
+
+  resources :items
+
+
+  resources :creators
+
+
+  resources :locations
+
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
