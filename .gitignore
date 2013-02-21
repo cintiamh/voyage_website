@@ -16,3 +16,5 @@
 
 # Ignore IDEA config files
 .idea/
+
+/test/*

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @creator.name %>
+</p>
+
+<p>
+  <b>Birthday:</b>
+  <%= @creator.birthday %>
+</p>
+
+<p>
+  <b>Deathday:</b>
+  <%= @creator.deathday %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @creator.location %>
+</p>
+
+
+<%= link_to 'Edit', edit_creator_path(@creator) %> |
+<%= link_to 'Back', creators_path %>

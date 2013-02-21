@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @item.title %>
+</p>
+
+<p>
+  <b>Creation:</b>
+  <%= @item.creation %>
+</p>
+
+<p>
+  <b>Medium:</b>
+  <%= @item.medium %>
+</p>
+
+<p>
+  <b>Measurements:</b>
+  <%= @item.measurements %>
+</p>
+
+<p>
+  <b>Credit:</b>
+  <%= @item.credit %>
+</p>
+
+<p>
+  <b>Accession num:</b>
+  <%= @item.accession_num %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @item.location %>
+</p>
+
+<p>
+  <b>Creator:</b>
+  <%= @item.creator %>
+</p>
+
+<p>
+  <b>Gallery:</b>
+  <%= @item.gallery %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
