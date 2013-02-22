@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @connection.description %>
+</p>
+
+<p>
+  <b>Item1:</b>
+  <%= @connection.item1 %>
+</p>
+
+<p>
+  <b>Item2:</b>
+  <%= @connection.item2 %>
+</p>
+
+
+<%= link_to 'Edit', edit_connection_path(@connection) %> |
+<%= link_to 'Back', connections_path %>

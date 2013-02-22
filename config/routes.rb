@@ -1,4 +1,7 @@
 Voyage::Application.routes.draw do
+  resources :connections
+
+
   resources :tours
 
 
